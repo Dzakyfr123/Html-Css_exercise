@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{font-family: Arial, Helvetica, sans-serif;
+
+        }
+        .A { grid-template-columns:  200px 75px;
+                justify-content: center;
+                display: grid;
+        }
+        .box1 {
+            display: grid;
+            width: 200px;
+            background-color: blue;
+        }
+        .box2 {
+            width: 75px;
+            background-color: pink;
+        }
+        .B{
+            grid-template-columns: 75px 300px 75px;
+            justify-content: center;
+            display: grid;
+        }
+        .col1{
+            background-color: skyblue;
+        }
+        .col2{
+            background-color: pink;
+        }
+        .col3{
+            background-color: skyblue;
+        }
+        .C{
+            display: grid;
+            grid-template-columns: 100px 100px 100px 100px;
+            grid-template-rows: 20px;
+            gap: 20px;
+        }
+        .pink{
+            background-color: pink;
+        }
+     
+       
+
+    </style>
+</head>
+<body> <h1>A</h1>
+    <div class="A">
+
+        <div class="box1">200px</div>
+    <div class="box2">75px</div>
+    </div>
+    <h1>B</h1>
+    <div class="B">
+        <div class="col1">col1</div>
+        <div class="col2">col2</div>
+        <div class="col3">col3</div>
+    </div>
+    <h1>C</h1>
+    <div class="C">
+    <div class="pink">a</div>
+    <div class="pink">b</div>
+    <div class="pink">c</div>
+    <div class="pink">d</div>
+    <div class="pink">e</div>
+    <div class="pink">f</div>
+    <div class="pink">g</div>
+    <div class="pink">h</div>
+    </div>
+    
+</body>
+</html>

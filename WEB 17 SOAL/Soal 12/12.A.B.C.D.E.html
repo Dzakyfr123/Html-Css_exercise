@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .A{
+            display: flex;
+            flex-direction: row;
+        }
+        .fl1{
+            background:skyblue;
+            width: 200px;
+        }
+        .fl2{
+            background-color: pink;
+            width: 75px;
+        }
+        .B{
+            display: flex;
+            flex-direction: row;
+        }
+        .w1{
+            width: 75px;
+            background-color: skyblue;
+        }
+        .w2{
+            width: 300px;
+            background-color: pink;
+        }
+        .w3{
+            width: 75px;
+            background-color: skyblue;
+        }
+        .C{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .flex{
+            background-color: pink;
+            width: auto;
+        }
+        .D{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            height: 50px;
+            border: 1px solid;
+            
+            
+        }
+        .red{
+            background-color: pink;
+            margin-top: 14px;
+            margin-bottom: 14px;
+        }
+        .E{
+            display: flex;
+            flex-direction: row;
+            border: 1px solid;
+        }
+        .container-grid {
+            width: 400px;
+            border: 1px solid black;
+            padding: 20px;
+        }
+
+        .satu {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        
+        .dua {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+        }
+        .tiga {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .item {
+          width: 40px; 
+          border-radius: 20px; 
+          border: none; 
+          background-color: rgb(21, 116, 210); 
+          padding: 2px; 
+          color: white; 
+          text-align: center; 
+          height: 20px; 
+          margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>A</h1>
+    <div class="A">
+        <div class="fl1">200px</div>
+        <div class="fl2">75px</div>
+    </div>
+    <h1>B</h1>
+    <div class="B">
+        <div class="w1">w1</div>
+        <div class="w2">w2</div>
+        <div class="w3">w3</div>
+    </div>
+    <h1>C</h1>
+    <div class="C">
+        <div class="flex">flex</div>
+        <div class="flex">flex</div>
+        <div class="flex">flex</div>
+        <div class="flex">flex</div>
+    </div>
+    <h1>D</h1>
+    <div class="D">
+        <div class="red">Dark Red</div>
+        <div class="red">Dark Red</div>
+    </div>
+    <h1>E</h1>
+    <div class="container-grid">
+        <div class="satu">
+            <p>Home</p>
+            <div class="item">14</div>
+          </div>
+          <div class="dua">
+            <p>Notifications</p>
+            <div class="item">3</div>
+          </div>
+          <div class="tiga">
+            <p>Messages</p>
+            <div class="item">5</div>
+        </div>
+    </div>
+</body>
+</html>
