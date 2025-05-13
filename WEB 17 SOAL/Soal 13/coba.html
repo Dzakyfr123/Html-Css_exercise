@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gmail Layout with Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            font-family: Arial, sans-serif;
+        }
+
+        .email {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .email-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .subject {
+            font-weight: bold;
+        }
+
+        .actions {
+            display: flex;
+            gap: 10px;
+        }
+
+        .actions button {
+            background-color: lightgray;
+            border: none;
+            padding: 5px 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="email">
+            <div class="email-info">
+                <div class="subject">Email Subject 1</div>
+                <div class="preview">This is a short preview of the email...</div>
+            </div>
+            <div class="actions">
+                <button>⭐</button>
+                <button>📩</button>
+            </div>
+        </div>
+
+        <div class="email">
+            <div class="email-info">
+                <div class="subject">Email Subject 2</div>
+                <div class="preview">Another preview of an email...</div>
+            </div>
+            <div class="actions">
+                <button>⭐</button>
+                <button>📩</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
